@@ -1,0 +1,55 @@
+:root {
+  /* Rojo */
+  --rojo: #FF0000;
+  /* Azul */
+  --azul: #0000FF;
+  /* Amarillo */
+  --amarillo: #FFFF00;
+  /* Rojo rubí */
+  --rojo-rubi: #FF0033;
+  /* Azul zafiro */
+  --azul-zafiro: #0033FF;
+}
+
+/* COLORES */
+.rojo {
+    color: var(--rojo);
+}
+
+.azul {
+    color: var(--azul);
+}
+
+.amarillo {
+    color: var(--amarillo);
+}
+
+.rojo-rubi {
+    color: var(--rojo-rubi);
+}
+
+.azul-zafiro {
+    color: var(--azul-zafiro);
+}
+
+/* COLORES DE BG */
+
+.bg-rojo {
+    background-color: var(--rojo);
+}
+
+.bg-azul {
+    background-color: var(--azul);
+}
+
+.bg-amarillo {
+    background-color: var(--amarillo);
+}
+
+.bg-rojo-rubi {
+    background-color: var(--rojo-rubi);
+}
+
+.bg-azul-zafiro {
+    background-color: var(--azul-zafiro);
+}
