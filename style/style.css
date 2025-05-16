@@ -1,3 +1,15 @@
+/* BAJAR EL FOOTER */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* VARIABLES */
 :root {
   /* Rojo */
   --rojo: #FF0000;
