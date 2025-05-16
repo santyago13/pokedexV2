@@ -21,6 +21,10 @@ main {
   --rojo-rubi: #FF0033;
   /* Azul zafiro */
   --azul-zafiro: #0033FF;
+  /* Gris */
+  --gris: #424242;
+  /* rojo-fuerte */
+  --rojo-fuerte: #4d0b0b;
 }
 
 /* COLORES */
@@ -64,4 +68,21 @@ main {
 
 .bg-azul-zafiro {
     background-color: var(--azul-zafiro);
+}
+
+/* ESTILOS DEL NAVBAR */
+
+nav a {
+    color: rgb(208, 208, 208);
+    text-decoration: none;
+}
+
+.pageActive {
+font-weight: bold;
+color: white;
+}
+
+nav a:hover {
+    transition: 500ms;
+    color: white;
 }
