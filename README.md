@@ -1,6 +1,9 @@
 # POKEDEX V2
 Este proyecto es una Pokédex web desarrollada como parte del módulo Front End del curso de Full Stack Developer. El objetivo principal es practicar el trabajo en equipo utilizando Git y GitHub, junto con la implementación de estilos responsivos mediante Bootstrap.
 
+## 🔗 Demo del proyecto
+Mirá la demo del proyecto [aquí](http://pokedexv2a.netlify.app/)
+
 ## 🎯 Objetivos del proyecto
 - Aplicar conocimientos de HTML, CSS y Bootstrap para crear una interfaz atractiva y funcional.
 - Trabajar de forma colaborativa con ramas, commits, pull requests y merge usando Git y GitHub.
