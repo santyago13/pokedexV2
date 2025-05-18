@@ -13,7 +13,7 @@ Este proyecto es una Pokédex web desarrollada como parte del módulo Front End 
 - Git y [GitHub](https://github.com/)
 
 ## 🚀 Cómo ejecutar el  proyecto
-1. Clonar el repositorio escribiendo en una terminal el siguiente comando: ´git clone https://github.com/santyago13/pokedexV2.git´
+1. Clonar el repositorio escribiendo en una terminal el siguiente comando: `git clone https://github.com/santyago13/pokedexV2.git`
 1. Luego abrí el index.html con un navegador.
 
 ## 👥 Equipo de desarrollo
