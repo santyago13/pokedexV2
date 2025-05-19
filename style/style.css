@@ -9,6 +9,12 @@ main {
   flex-grow: 1;
 }
 
+.imgCategoria {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 /* VARIABLES */
 :root {
   /* Rojo */
