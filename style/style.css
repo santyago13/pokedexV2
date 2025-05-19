@@ -117,3 +117,25 @@ nav a:hover {
 .planta-footer {
   background-color: var(--verde);
 }
+
+.card404{
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btnError{
+  background-color: var(--rojo-rubi);
+  transition: 300ms;
+  color: black;
+}
+
+.btnError:hover{
+  background-color: black;
+  color: var(--rojo-rubi);
+}
+
+.img404{
+  max-height: 250px;
+  object-fit: cover;
+}
