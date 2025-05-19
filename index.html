@@ -88,7 +88,12 @@
           </div>
           <!-- DEWOTT -->
           <div class="col-12 col-md-4 col-lg-3 my-2">
-            <div class="card h-100 text-center gridShadow border-dark">
+            <div
+              class="card h-100 text-center gridShadow border-dark"
+              data-bs-toggle="modal"
+              data-bs-target="#ModalDewott"
+              style="cursor: pointer"
+            >
               <div class="card-header text-center">
                 <h6 class="text-secondary">N.° 0502</h6>
               </div>
@@ -244,19 +249,8 @@
           </ul>
         </div>
       </div>
-      <!-- Modals -->
-      <!-- Botón para abrir el modal -->
-      <button
-        type="button"
-        class="btn"
-        style="background-color: var(--azul); color: white"
-        data-bs-toggle="modal"
-        data-bs-target="#ModalOshawott"
-      >
-        Abrir Modal Oshawott
-      </button>
-
       <!-- Modal -->
+      <!-- Modal Oshawott -->
       <div
         class="modal fade"
         id="ModalOshawott"
@@ -265,11 +259,9 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content modal-oshawott">            
+          <div class="modal-content">
             <div class="modal-header M_A">
-              <h5 class="modal-title text-light" id="ModalOshawottLabel">
-                Oshawott
-              </h5>
+              <h5 class="modal-title text-light">Oshawott</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -281,12 +273,48 @@
             <!-- Cuerpo del modal -->
             <div class="modal-body">
               <h6 class="text-center">Pokémon Nutria</h6>
-              <p>"Blande la cuchilleira del vientre a modo de daga. Tras bloquear con ella los movimientos del rival, contraataca asestando ágiles cuchilladas."</p>            
+              <p>
+                "Blande la cuchilleira del vientre a modo de daga. Tras bloquear
+                con ella los movimientos del rival, contraataca asestando ágiles
+                cuchilladas."
+              </p>
             </div>
 
-            <!-- Footer con fondo azul y botones personalizados -->
-            <div class="modal-footer modal-footer-oshawott M_A">              
+            <div class="modal-footer M_A"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Dewott -->
+      <div
+        class="modal fade"
+        id="ModalDewott"
+        tabindex="-1"
+        aria-labelledby="ModalDewottLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header M_A">
+              <h5 class="modal-title text-light">Dewott</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Cerrar"
+              ></button>
             </div>
+
+            <!-- Cuerpo del modal -->
+            <div class="modal-body">
+              <h6 class="text-center">Pokémon Superación</h6>
+              <p>
+                "Se dice que sus movimientos al manejar las dos cuchilleiras,
+                fluidos cual corriente de agua, se tomaron como modelo para el
+                arte de la espada."
+              </p>
+            </div>
+
+            <div class="modal-footer M_A"></div>
           </div>
         </div>
       </div>

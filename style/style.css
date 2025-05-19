@@ -142,3 +142,9 @@ nav a:hover {
 .M_A{
   background-color: var(--azul-zafiro);
 }
+.M_P{
+  background-color: var(--verde);
+}
+.M_F{
+  background-color: var(--rojo-fuego);
+}
